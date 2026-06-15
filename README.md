@@ -21,7 +21,7 @@
 
 </div>
 
-## 🌟 What This Is
+##  What This Is
 
 This package simulates *C. elegans* (a 1mm roundworm) as an **autonomous ROS2 robot** whose behaviour emerges entirely from its real connectome — the complete wiring diagram of its nervous system.
 
@@ -35,7 +35,7 @@ This is the same connectome that the [OpenWorm project](http://openworm.org) use
 
 ---
 
-## 📺 Demo
+##  Demo
 
 ```
 Worm crawling autonomously in RViz2
@@ -47,7 +47,7 @@ Worm crawling autonomously in RViz2
 
 ---
 
-## 🧠 Neural Architecture
+##  Neural Architecture
 
 ```
 SENSORY LAYER          INTERNEURON LAYER       MOTOR LAYER
@@ -65,7 +65,7 @@ AFD  (temperature)───► AIY  (thermo)      ──► locomotion
 
 ---
 
-## 📦 Package Structure
+##  Package Structure
 
 ```
 celegans_sim/
@@ -87,7 +87,7 @@ celegans_sim/
 
 ---
 
-## ⚙️ System Requirements
+##  System Requirements
 
 | Component | Version |
 |-----------|---------|
@@ -99,7 +99,7 @@ celegans_sim/
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Install ROS2 dependencies
 
@@ -142,7 +142,7 @@ source install/setup.bash
 
 ---
 
-## ▶️ Running the Simulation
+##  Running the Simulation
 
 ### Full simulation (Gazebo + RViz2)
 
@@ -226,7 +226,7 @@ Sensory input format: `[head_touch, tail_touch, food_proximity, nociception, tem
 
 ---
 
-## 📡 ROS2 Topics
+##  ROS2 Topics
 
 | Topic | Message Type | Direction | Description |
 |-------|-------------|-----------|-------------|
@@ -241,7 +241,7 @@ Sensory input format: `[head_touch, tail_touch, food_proximity, nociception, tem
 
 ---
 
-## 🧪 Monitoring Neural Activity
+##  Monitoring Neural Activity
 
 ```bash
 # Watch behavior state
@@ -262,7 +262,7 @@ rqt
 
 ---
 
-## 🔧 Troubleshooting
+##  Troubleshooting
 
 **`libexec directory does not exist` on launch:**
 ```bash
@@ -297,7 +297,7 @@ sudo apt install ros-jazzy-ros-gz-sim
 
 ---
 
-## 📚 Neural Model Details
+##  Neural Model Details
 
 The simulation uses a **Leaky Integrate-and-Fire (LIF)** model:
 
@@ -339,7 +339,7 @@ Made available by the [OpenWorm project](http://openworm.org).
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [ ] Gazebo Harmonic full physics integration
 - [ ] Real contact sensor plugins (bumper sensors on head/tail)
@@ -350,7 +350,7 @@ Made available by the [OpenWorm project](http://openworm.org).
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Pull requests are welcome. For major changes please open an issue first.
 
